@@ -4,21 +4,28 @@ build-backend = "setuptools.build_meta"
 
 [project]
 name = "llms-from-scratch"
-version = "1.0.17"
-description = "Implement a ChatGPT-like LLM in PyTorch from scratch, step by step"
+version = "0.1.0"
+description = "Build LLM from scratch"
 readme = "README.md"
-requires-python = ">=3.10,<3.13"
+requires-python = ">=3.12,<3.13"
 dependencies = [
-    "torch>=2.3.0",
-    "jupyterlab>=4.0",
-    "tiktoken>=0.5.1",
-    "matplotlib>=3.7.1",
-    "tensorflow>=2.18.0",
-    "tqdm>=4.66.1",
+    "ipykernel==6.30.*",
+    "jupyterlab==4.4.*",
+    "jupyterlabcodetoc==4.0.*",
+    "matplotlib==3.10.*",
     "numpy>=1.26,<2.1",
-    "pandas>=2.2.1",
-    "pip>=25.0.1",
-    "pytest>=8.3.5",
+    "packages==0.1.1",
+    "pandas==2.3.*",
+    "pip==25.2.*",
+    "pytest==8.4.*",
+    "scikit-learn==1.7.*",
+    "scipy==1.16.*",
+    "statsmodels==0.14.*",
+    "tensorflow==2.19.*",
+    "tiktoken==0.9.*",
+    "torch==2.7.*",
+    "tqdm==4.67.*",
+    "watermark==2.5.*",
 ]
 
 [tool.uv.sources]
